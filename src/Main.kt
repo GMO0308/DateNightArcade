@@ -8,7 +8,7 @@ fun main() {
     val terminal1 = Terminal() // A terminal created
     val terminal2 = Terminal() // Another terminal created
     terminal1.addCredits(card1, 20) // add 40 credits with $20 into card1
-    terminal1.addCredits(card2, 20) // add 40 credits with $20 into card2
+    terminal2.addCredits(card2, 20) // add 40 credits with $20 into card2
     println("\n\n>>> Card #1 is used to play Game #1 5 times...")
     repeat(5) {
         game1.play(card1) // play game1 5 times with card1
