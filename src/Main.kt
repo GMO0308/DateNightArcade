@@ -25,8 +25,8 @@ fun main() {
     println("\n\n>>> Card #1 is used to play Game #1 one more time...")
     game1.play(card1) // try to play game1 again with card1
     println("\n\n>>> Request different prizes with Card #1 and Card #2...")
-// request prize (Candy, Hat or Classes) with card1 or card 2.
-// prize may be claimed with enough tickets or may not if not enough tickets
+    // request prize (Candy, Hat or Classes) with card1 or card 2.
+    // prize may be claimed with enough tickets or may not if not enough tickets
     terminal1.requestPrize("Candy", card1)
     terminal1.requestPrize("Hat", card2)
     terminal1.requestPrize("Candy", card2)
